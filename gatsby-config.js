@@ -5,5 +5,10 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  // added siteMetadata so we can query it through graphql
+  siteMetadata: {
+    title: "Portfolio",
+    author: "Jack Dwyer",
+  },
+  plugins: [`gatsby-plugin-react-helmet`],
 }
