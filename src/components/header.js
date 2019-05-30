@@ -16,7 +16,10 @@ const Header = () => {
       <div className={styles.navCenter}>
         <div className={styles.navHeader}>
           {/* <img src={logo} alt="backroads logo" /> */}
-          <h2 className={styles.brand}>JACK DWYER</h2>
+          <AniLink fade to={"/"} className={styles.brandLinks}>
+            <h2 className={styles.brand}>JACK DWYER</h2>
+          </AniLink>
+
           <button
             type="button"
             className={styles.logoBtn}

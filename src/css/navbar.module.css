@@ -16,12 +16,16 @@
   color: var(--primaryColor);
   font-size: 1.5rem;
 }
+.brand-links {
+  text-decoration: none;
+}
 .brand {
   padding: 1rem 1.25rem;
   margin: 0;
   color: var(--mainBlack);
   border: 1px solid var(--primaryColor);
 }
+
 .nav-links {
   list-style-type: none;
   transition: var(--mainTransition);
