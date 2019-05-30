@@ -1,7 +1,12 @@
 import React from "react"
+import Layout from "../components/Layout"
 
 const Blog = props => {
-  return <div>Blog Posts will live here</div>
+  return (
+    <Layout>
+      <div>Blog Posts will live here</div>
+    </Layout>
+  )
 }
 
 export default Blog

@@ -1,8 +1,7 @@
 import React from "react"
-import Header from "./header"
-import Footer from "./footer"
-// import "../../node/materialize-css/dist/css/materialize.min.css"
-import styles from "./layout.css"
+import Header from "./Header"
+import Footer from "./Footer"
+import "./layout.css"
 
 const Layout = props => {
   return (
