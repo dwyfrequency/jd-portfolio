@@ -5,11 +5,11 @@ import "./layout.css"
 
 const Layout = props => {
   return (
-    <>
+    <div className="wrapper">
       <Header />
       {props.children}
       <Footer />
-    </>
+    </div>
   )
 }
 
