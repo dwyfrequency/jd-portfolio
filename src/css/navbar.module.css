@@ -16,7 +16,10 @@
   color: var(--primaryColor);
   font-size: 1.5rem;
 }
-
+.brand {
+  padding: 1rem 1.25rem;
+  margin: 0;
+}
 .nav-links {
   list-style-type: none;
   transition: var(--mainTransition);
@@ -39,9 +42,7 @@
 .nav-links a:hover {
   color: var(--primaryColor);
 }
-.nav-social-links {
-  display: none;
-}
+
 @media screen and (min-width: 576px) {
   .navbar {
     padding: 0 2rem;
@@ -62,19 +63,5 @@
   .nav-links {
     height: auto;
     display: flex;
-  }
-  .nav-social-links {
-    display: flex;
-    line-height: 0;
-  }
-  .nav-social-links a {
-    color: var(--primaryColor);
-    margin: 0 0.5rem;
-    font-size: 1.2rem;
-    transition: var(--mainTransition);
-  }
-  .nav-social-links a:hover {
-    color: var(--mainBlack);
-    transform: translateY(-5px);
   }
 }
