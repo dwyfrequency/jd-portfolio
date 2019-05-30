@@ -1,16 +1,15 @@
 import React from "react"
 import Header from "./header"
 import Footer from "./footer"
+// import "../../node/materialize-css/dist/css/materialize.min.css"
 
 const Layout = props => {
   return (
-    <div className="container">
-      <div className="content">
-        <Header />
-        {props.children}
-      </div>
+    <>
+      <Header />
+      {props.children}
       <Footer />
-    </div>
+    </>
   )
 }
 
