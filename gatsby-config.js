@@ -10,5 +10,5 @@ module.exports = {
     title: "Portfolio",
     author: "Jack Dwyer",
   },
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: [`gatsby-plugin-react-helmet`, `gatsby-plugin-transition-link`],
 }
