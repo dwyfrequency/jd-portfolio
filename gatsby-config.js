@@ -10,5 +10,18 @@ module.exports = {
     title: "Portfolio",
     author: "Jack Dwyer",
   },
-  plugins: [`gatsby-plugin-react-helmet`, `gatsby-plugin-transition-link`],
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-transition-link`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+  ],
 }
