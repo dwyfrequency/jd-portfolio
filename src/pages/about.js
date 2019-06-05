@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/Layout"
 // import Head from "../components/head"
-
+import Skills from "../components/about/Skills"
 const AboutPage = props => {
   return (
     <Layout>
@@ -30,7 +30,7 @@ const AboutPage = props => {
       <p>
         Need a dev? <Link to="/contact">Contact me!</Link>
       </p>
-      <h2>Skills</h2>
+      <Skills />
     </Layout>
   )
 }
