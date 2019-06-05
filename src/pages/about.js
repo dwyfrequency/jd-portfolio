@@ -8,7 +8,19 @@ const AboutPage = props => {
     <Layout>
       {/* <Head title="About" /> */}
       <h1>About</h1>
-      <p>I currently code full-time </p>
+      <p>
+        I'm Jack Dwyer, a full stack web developer, and designer living in New
+        York City.
+      </p>
+      <p>
+        I graduated from the University of Miami with concentrations on Computer
+        Information Systems and Accounting. After leaving University, I worked
+        at BlackRock in Manhattan as a Technical Product Manager on the Aladdin
+        platform. I primarily focussed on evangelizing the use of developer APIs
+        and data science tools in the Aladdin community. After some careful
+        consideration, I decided to enroll at Fullstack Academy to improve my
+        technical knowledge.
+      </p>
       <p>
         Need a dev? <Link to="/contact">Contact me!</Link>
       </p>
