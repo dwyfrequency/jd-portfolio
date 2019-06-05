@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 const Portfolio = props => {
   return (
     <Layout>
-      <div>Blog Posts will live here</div>
+      <div>Portfolio will live here</div>
     </Layout>
   )
 }
