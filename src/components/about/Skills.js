@@ -13,9 +13,10 @@ const SkillListItem = styled.li`
   list-style: none;
   background: var(--primaryColor);
   color: var(--mainWhite);
-  margin: 2rem;
   padding: 2px;
+  margin-top: -10px;
   text-align: center;
+  text-transform: uppercase;
 `
 
 const Skills = props => {
