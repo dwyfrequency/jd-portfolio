@@ -1,0 +1,17 @@
+.about {
+  width: 80vw;
+  margin: 1rem auto;
+}
+
+.title {
+  text-align: center;
+  border-top: 2px solid var(--darkGrey);
+  border-bottom: 2px solid var(--darkGrey);
+  padding: 1rem;
+}
+
+.title-skills {
+  text-align: center;
+  border-bottom: 1px solid var(--darkGrey);
+  padding: 1rem;
+}

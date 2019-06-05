@@ -1,6 +1,7 @@
 import React from "react"
 import skills from "../../constants/skills"
 import styled from "styled-components"
+import styles from "../../css/about.module.css"
 
 const SkillListContainer = styled.ul`
   display: grid;
@@ -20,7 +21,7 @@ const SkillListItem = styled.li`
 const Skills = props => {
   return (
     <>
-      <h2>Skills</h2>
+      <h2 className={styles.titleSkills}>Skills</h2>
       <SkillListContainer>
         {Object.values(skills)
           .reduce((accum, skillType) => accum.concat(skillType), [])
