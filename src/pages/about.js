@@ -7,7 +7,7 @@ const AboutPage = props => {
   return (
     <Layout>
       {/* <Head title="About" /> */}
-      <h1>About</h1>
+      <h2>About</h2>
       <p>
         I'm Jack Dwyer, a full stack web developer, and designer living in New
         York City.
@@ -22,8 +22,15 @@ const AboutPage = props => {
         technical knowledge.
       </p>
       <p>
+        When not creating websites, I love to spend time with my family and
+        friends. You can find me out in the wild at either 10th Planet NYC,
+        CorePower Yoga, Central Park, or whatever the latest contemporary art
+        exhibit is.
+      </p>
+      <p>
         Need a dev? <Link to="/contact">Contact me!</Link>
       </p>
+      <h2>Skills</h2>
     </Layout>
   )
 }
