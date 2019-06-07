@@ -77,3 +77,8 @@ p {
   display: flex;
   flex-direction: column;
 }
+
+.main-content {
+  width: 80vw;
+  margin: 1rem auto;
+}

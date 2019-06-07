@@ -3,12 +3,11 @@ import { Link } from "gatsby"
 import Layout from "../components/Layout"
 // import Head from "../components/head"
 import Skills from "../components/about/Skills"
-import styles from "../css/about.module.css"
 const AboutPage = props => {
   return (
     <Layout>
       {/* <Head title="About" /> */}
-      <section className={styles.about}>
+      <section className="main-content">
         <h2 className={styles.title}>About</h2>
         <p>
           I'm Jack Dwyer, a full stack web developer, and designer living in New
