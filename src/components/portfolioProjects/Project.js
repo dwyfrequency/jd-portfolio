@@ -7,7 +7,13 @@ const ProjectCard = styled.div`
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: stretch;
+  .links {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
 `
 
 const Project = ({ projectDetails }) => {
@@ -16,6 +22,22 @@ const Project = ({ projectDetails }) => {
       <Image fluid={projectDetails.projectImg.fluid} />
       <h2>{projectDetails.title}</h2>
       <p>{projectDetails.description.description}</p>
+      <div className="links">
+        <a
+          href={projectDetails.projectLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          demo
+        </a>
+        <a
+          href={projectDetails.githubLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          code
+        </a>
+      </div>
     </ProjectCard>
   )
 }
