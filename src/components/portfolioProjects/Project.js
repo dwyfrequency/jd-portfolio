@@ -8,20 +8,20 @@ const ProjectCard = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: stretch;
-  .imageContainer img {
-    height: 200px;
-  }
   .detailContainer {
     height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    /* :last-child {
+      margin: auto 0;
+    } */
   }
   .links {
     border: 2px solid red;
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: baseline;
     flex-direction: row;
   }
 `
