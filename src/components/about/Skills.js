@@ -14,7 +14,6 @@ const SkillListItem = styled.li`
   background: var(--primaryColor);
   color: var(--mainWhite);
   padding: 2px;
-  margin-top: -10px;
   text-align: center;
   text-transform: uppercase;
 `
