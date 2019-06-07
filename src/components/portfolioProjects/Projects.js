@@ -2,8 +2,8 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 const query = graphql`
-  query projects {
-    allContentfulProject {
+  query {
+    projects: allContentfulProject {
       edges {
         node {
           id
@@ -20,8 +20,8 @@ const query = graphql`
 `
 
 const Projects = () => {
-  const response = useStaticQuery(query)
-  console.log(response)
+  const { projects } = useStaticQuery(query)
+  console.log(projects)
   return <div>Projects will live here</div>
 }
 
