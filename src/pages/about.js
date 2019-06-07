@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/Layout"
 // import Head from "../components/head"
 import Skills from "../components/about/Skills"
+import styles from "../css/about.module.css"
 const AboutPage = props => {
   return (
     <Layout>
