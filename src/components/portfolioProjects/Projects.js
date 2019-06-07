@@ -3,7 +3,7 @@ import Project from "./Project"
 import { useStaticQuery, graphql } from "gatsby"
 
 const query = graphql`
-  query {
+  query projects {
     projects: allContentfulProject {
       edges {
         node {
@@ -14,6 +14,11 @@ const query = graphql`
           }
           githubLink
           projectLink
+          projectImg {
+            fluid {
+              ...GatsbyContentfulFluid
+            }
+          }
         }
       }
     }
