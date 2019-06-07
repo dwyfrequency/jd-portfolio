@@ -1,6 +1,6 @@
 import React from "react"
 
-const Project = () => {
+const Project = ({ projectDetails }) => {
   return <div>My Project lives here</div>
 }
 
