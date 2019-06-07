@@ -11,7 +11,9 @@
 }
 
 .title-skills {
+  margin-top: 5rem;
   text-align: center;
+  border-top: 1px solid var(--darkGrey);
   border-bottom: 1px solid var(--darkGrey);
   padding: 1rem;
 }
