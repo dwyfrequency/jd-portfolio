@@ -8,10 +8,20 @@ const ProjectCard = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: stretch;
+  .imageContainer img {
+    height: 200px;
+  }
+  .detailContainer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
   .links {
     border: 2px solid red;
     display: flex;
     justify-content: space-around;
+    align-items: flex-end;
     flex-direction: row;
   }
 `
@@ -19,24 +29,28 @@ const ProjectCard = styled.div`
 const Project = ({ projectDetails }) => {
   return (
     <ProjectCard>
-      <Image fluid={projectDetails.projectImg.fluid} />
-      <h2>{projectDetails.title}</h2>
-      <p>{projectDetails.description.description}</p>
-      <div className="links">
-        <a
-          href={projectDetails.projectLink}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          demo
-        </a>
-        <a
-          href={projectDetails.githubLink}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          code
-        </a>
+      <div className="imageContainer">
+        <Image fluid={projectDetails.projectImg.fluid} />
+      </div>
+      <div className="detailContainer">
+        <h2>{projectDetails.title}</h2>
+        <p>{projectDetails.description.description}</p>
+        <div className="links">
+          <a
+            href={projectDetails.projectLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            demo
+          </a>
+          <a
+            href={projectDetails.githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            code
+          </a>
+        </div>
       </div>
     </ProjectCard>
   )
