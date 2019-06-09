@@ -7,7 +7,6 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export default ({ data }) => (
   <Layout>
-    hello from index
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner title="building solutions" info="Developer | Designer | Speaker">
         <AniLink fade to="/portfolio" className="btn-white">
