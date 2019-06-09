@@ -1,7 +1,6 @@
 import React from "react"
 import Image from "gatsby-image"
 import styles from "../../css/project.module.css"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const Project = ({ projectDetails }) => {
   return (

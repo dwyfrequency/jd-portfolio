@@ -8,7 +8,7 @@
   Gatsby's hello-world starter
 </h1>
 
-<strong>May need to mod the size of our photos in contentful</strong>
+Inspiration: https://www.maribelduran.com/#contact
 
 Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
