@@ -3,7 +3,7 @@ import Header from "./Head"
 import Footer from "./Foot"
 import "./layout.css"
 
-const Lay = ({ children }) => {
+const Layout = ({ children }) => {
   return (
     <div className="wrapper">
       <Header />
@@ -13,4 +13,4 @@ const Lay = ({ children }) => {
   )
 }
 
-export default Lay
+export default Layout
