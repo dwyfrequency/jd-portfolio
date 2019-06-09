@@ -28,7 +28,6 @@ const query = graphql`
 
 const Projects = () => {
   const { projects } = useStaticQuery(query)
-  console.log(projects)
   return (
     <section className={styles.tours}>
       {/* <Title title="our" subtitle="tours" /> */}
