@@ -1,5 +1,6 @@
 import React from "react"
 import Project from "./Project"
+import Title from "../Title"
 import styles from "../../css/items.module.css"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -30,7 +31,8 @@ const Projects = () => {
   const { projects } = useStaticQuery(query)
   return (
     <section className={styles.tours}>
-      {/* <Title title="our" subtitle="tours" /> */}
+      {/* eventually we'll make the subtitle dynamic */}
+      <Title title="Projects" subtitle="all" />
       <div className={styles.center}>
         {projects.edges.map(({ node }) => (
           <Project key={node.id} projectDetails={node} />
