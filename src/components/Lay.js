@@ -3,11 +3,12 @@ import React from "react"
 // import Footer from "./Footer"
 // import "./layout.css"
 
-const Lay = props => {
+const Lay = ({ children }) => {
   return (
     <div className="wrapper">
       {/* <Header /> */}
       {/* {props.children} */}
+      {children}
       {/* <Footer /> */}
     </div>
   )
