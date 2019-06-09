@@ -1,7 +1,7 @@
 import React from "react"
 // import Layout from "../components/Layout.js"
-// import StyledHero from "../components/StyledHero"
-// import Banner from "../components/Banner"
+import StyledHero from "../components/StyledHero"
+import Banner from "../components/Banner"
 import { graphql } from "gatsby"
 // import AniLink from "gatsby-plugin-transition-link/AniLink"
 
@@ -9,13 +9,13 @@ export default ({ data }) => (
   <div>
     {/* // <Layout> */}
     hello from index
-    {/* <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
+    <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner title="building solutions" info="Developer | Designer | Speaker">
         <AniLink fade to="/portfolio" className="btn-white">
           explore projects
         </AniLink>
       </Banner>
-    </StyledHero> */}
+    </StyledHero>
     {/* </Layout> */}
   </div>
 )
