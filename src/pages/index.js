@@ -3,7 +3,7 @@ import React from "react"
 import StyledHero from "../components/StyledHero"
 import Banner from "../components/Banner"
 import { graphql } from "gatsby"
-// import AniLink from "gatsby-plugin-transition-link/AniLink"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export default ({ data }) => (
   <div>
