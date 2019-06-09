@@ -3,14 +3,14 @@ import React from "react"
 // import Footer from "./Footer"
 // import "./layout.css"
 
-const Layout = props => {
+const Lay = props => {
   return (
     <div className="wrapper">
       {/* <Header /> */}
-      {props.children}
+      {/* {props.children} */}
       {/* <Footer /> */}
     </div>
   )
 }
 
-export default Layout
+export default Lay

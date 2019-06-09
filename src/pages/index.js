@@ -1,12 +1,12 @@
 import React from "react"
-import Layout from "../components/Layout"
+import Lay from "../components/Lay"
 import StyledHero from "../components/StyledHero"
 import Banner from "../components/Banner"
 import { graphql } from "gatsby"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export default ({ data }) => (
-  <Layout>
+  <Lay>
     hello from index
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner title="building solutions" info="Developer | Designer | Speaker">
@@ -15,7 +15,7 @@ export default ({ data }) => (
         </AniLink>
       </Banner>
     </StyledHero>
-  </Layout>
+  </Lay>
 )
 
 export const query = graphql`
