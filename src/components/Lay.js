@@ -1,15 +1,14 @@
 import React from "react"
-// import Header from "./Header"
-// import Footer from "./Footer"
-// import "./layout.css"
+import Header from "./Header"
+import Footer from "./Footer"
+import "./layout.css"
 
 const Lay = ({ children }) => {
   return (
     <div className="wrapper">
-      {/* <Header /> */}
-      {/* {props.children} */}
+      <Header />
       {children}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
