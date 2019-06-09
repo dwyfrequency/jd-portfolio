@@ -51,11 +51,12 @@ const Project = ({ projectDetails }) => {
       <div className={styles.footer}>
         <h3>{projectDetails.title}</h3>
         <div className={styles.info}>
-          <h4 className={styles.country}>"default country"</h4>
+          <p>{projectDetails.description.description}</p>
+          {/* <h4 className={styles.country}>"default country"</h4>
           <div className={styles.details}>
             <h6>12 days</h6>
             <h6>from $100</h6>
-          </div>
+          </div> */}
         </div>
       </div>
     </article>
