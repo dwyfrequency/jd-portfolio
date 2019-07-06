@@ -11,10 +11,10 @@ export default [
     path: "/portfolio",
     text: "portfolio",
   },
-  {
-    path: "/blog",
-    text: "blog",
-  },
+  // {
+  //   path: "/blog",
+  //   text: "blog",
+  // },
   {
     path: "/contact",
     text: "contact",
